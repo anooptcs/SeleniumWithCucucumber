@@ -29,9 +29,9 @@ public class Hook extends BaseUtil{
 
 
         //Chrome driver
-       // System.setProperty("webdriver.chrome.driver", "C:\\Libs\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Libs\\chromedriver.exe");
         //Lunix Chrome driver
-        System.setProperty("webdriver.chrome.driver", "/etc/alternatives/google-chrome");
+       // System.setProperty("webdriver.chrome.driver", "/etc/alternatives/google-chrome");
         base.Driver = new ChromeDriver();
     }
 
